@@ -29,7 +29,7 @@ const leaveHandler = (e: MouseEvent) => {
 
 <template lang="pug">
 div(class="h-full w-full" @mousemove="moveHandler" @mouseleave="leaveHandler")
-  BackgroundText(:pos="x")
+  //- BackgroundText(:pos="x")
   .flex(class="p-3 h-full w-full items-center justify-center")
     .my-card(
       :class="{'smooth-shadow': !isDark, 'smooth-glow': isDark}"
