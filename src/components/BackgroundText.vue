@@ -48,16 +48,16 @@ const shuffle = (array: string[]) => {
     :style="{'--x': props.pos} as any"
   >
     <div class="text">
-      <BGTextItem :tags="shuffle(tags)" i="0.5" />
-      <BGTextItem :tags="shuffle(tags)" i="1.5" />
-      <BGTextItem :tags="shuffle(tags)" i="2.5" />
-      <BGTextItem :tags="shuffle(tags)" i="2.25" />
-      <BGTextItem :tags="shuffle(tags)" i="0.25" />
-      <BGTextItem :tags="shuffle(tags)" i="0.75" />
-      <BGTextItem :tags="shuffle(tags)" i="1.25" />
-      <BGTextItem :tags="shuffle(tags)" i="1.85" />
-      <BGTextItem :tags="shuffle(tags)" i="2.05" />
-      <BGTextItem :tags="shuffle(tags)" i="0.1" />
+      <BGTextItem :tags="tags" i="0.5" />
+      <BGTextItem :tags="tags" i="1.5" />
+      <BGTextItem :tags="tags" i="2.5" />
+      <BGTextItem :tags="tags" i="2.25" />
+      <BGTextItem :tags="tags" i="0.25" />
+      <BGTextItem :tags="tags" i="0.75" />
+      <BGTextItem :tags="tags" i="1.25" />
+      <BGTextItem :tags="tags" i="1.85" />
+      <BGTextItem :tags="tags" i="2.05" />
+      <BGTextItem :tags="tags" i="0.1" />
     </div>
   </section>
 </template>
