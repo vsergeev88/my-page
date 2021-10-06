@@ -1,15 +1,4 @@
 <script setup lang="ts">
-// import { useUserStore } from '~/stores/user'
-
-// const user = useUserStore()
-// const name = ref(user.savedName)
-
-// const router = useRouter()
-// const go = () => {
-//   if (name.value)
-//     router.push(`/hi/${encodeURIComponent(name.value)}`)
-// }
-
 const { t } = useI18n()
 </script>
 
@@ -28,13 +17,3 @@ div(class="md:flex items-center justify-center md:justify-items-start")
       //-     div Projects
       //-     mdi:arrow-right(class="ml-3 text-2xl")
 </template>
-
-<route lang="yaml">
-meta:
-  layout: home
-</route>
-
-<style>
-  .userpic {
-  }
-</style>
