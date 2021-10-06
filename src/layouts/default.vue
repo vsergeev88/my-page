@@ -22,7 +22,7 @@ div(class="h-full w-full" @mousemove="moveHandler" @mouseleave="leaveHandler")
   .flex(class="p-3 h-full w-full items-center justify-center")
     .my-card(
       :class="{'smooth-shadow': !isDark, 'smooth-glow': isDark}"
-      class="w-full sm:w-1/2 lg:w-prose rounded-2xl pl-6 pb-6 pr-2 pt-2 text-center"
+      class="w-full sm:w-1/2 lg:w-prose rounded-2xl p-2 md:pl-6 pb-6 text-center"
       style="--tw-bg-opacity: 0.9;"
     )
       Header

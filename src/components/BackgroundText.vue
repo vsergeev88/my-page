@@ -21,23 +21,23 @@ const tags = [
   'Figma',
 ]
 
-const shuffle = (array: string[]) => {
-  let currentIndex = array.length
-  let randomIndex
+// const shuffle = (array: string[]) => {
+//   let currentIndex = array.length
+//   let randomIndex
 
-  // While there remain elements to shuffle...
-  while (currentIndex !== 0) {
-    // Pick a remaining element...
-    randomIndex = Math.floor(Math.random() * currentIndex)
-    currentIndex--;
+//   // While there remain elements to shuffle...
+//   while (currentIndex !== 0) {
+//     // Pick a remaining element...
+//     randomIndex = Math.floor(Math.random() * currentIndex)
+//     currentIndex--;
 
-    // And swap it with the current element.
-    [array[currentIndex], array[randomIndex]] = [
-      array[randomIndex], array[currentIndex]]
-  }
+//     // And swap it with the current element.
+//     [array[currentIndex], array[randomIndex]] = [
+//       array[randomIndex], array[currentIndex]]
+//   }
 
-  return array
-}
+//   return array
+// }
 </script>
 
 <template>
@@ -52,12 +52,12 @@ const shuffle = (array: string[]) => {
       <BGTextItem :tags="tags" i="1.5" />
       <BGTextItem :tags="tags" i="2.5" />
       <BGTextItem :tags="tags" i="2.25" />
-      <BGTextItem :tags="tags" i="0.25" />
+      <BGTextItem :tags="tags" i="1.25" />
       <BGTextItem :tags="tags" i="0.75" />
       <BGTextItem :tags="tags" i="1.25" />
-      <BGTextItem :tags="tags" i="1.85" />
-      <BGTextItem :tags="tags" i="2.05" />
-      <BGTextItem :tags="tags" i="0.1" />
+      <BGTextItem :tags="tags" i="0.75" />
+      <BGTextItem :tags="tags" i="3" />
+      <BGTextItem :tags="tags" i="2.35" />
     </div>
   </section>
 </template>
