@@ -25,9 +25,8 @@ div(class="h-full w-full" @mousemove="moveHandler" @mouseleave="leaveHandler")
       class="w-full sm:w-1/2 lg:w-prose rounded-2xl pl-6 pb-6 pr-2 pt-2 text-center"
       style="--tw-bg-opacity: 0.9;"
     )
-  Header
-  router-view(class="pb-6 pt-2")
-  <!-- <Footer /> -->
+      Header
+      router-view(class="pb-6 pt-2")
 </template>
 
 <style>
